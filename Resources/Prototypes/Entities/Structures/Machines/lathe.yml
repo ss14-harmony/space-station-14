@@ -872,6 +872,7 @@
     staticRecipes:
       - Brutepack
       - Ointment
+      - Bloodpack # Harmony
       - Gauze
       - HandLabeler
       - Defibrillator
@@ -889,6 +890,7 @@
       - PillCanister
       - BodyBag
       - ChemistryEmptyBottle01
+      - BaseChemistryEmptyVial # Harmony
       - RollerBedSpawnFolded
       - CheapRollerBedSpawnFolded
       - EmergencyRollerBedSpawnFolded
@@ -899,14 +901,17 @@
       - MedkitBrute
       - MedkitAdvanced
       - MedkitRadiation
-      - MedkitCombat
+      # - MedkitCombat -- Harmony
       - Scalpel
       - Retractor
       - Cautery
       - Drill
       - Saw
       - Hemostat
+      - CircularSaw # Harmony
       - ClothingEyesGlassesChemical
+      - ClothingEyesHudMedical # Harmony
+      - ClothingEyesEyepatchHudMedical # Harmony
       - WhiteCane
     dynamicRecipes:
       - ChemicalPayload
