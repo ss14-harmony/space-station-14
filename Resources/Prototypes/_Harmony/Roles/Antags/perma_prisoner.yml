@@ -1,0 +1,5 @@
+- type: antag
+  id: PermaPrisoner
+  name: roles-antag-perma-prisoner
+  antagonist: true
+  objective: roles-antag-perma-prisoner

@@ -59,3 +59,4 @@
             #silicon
             StationAi: [ 1, 1 ]
             Borg: [ 1, 1 ]
+            PermaPrisoner: [ -1, -1 ] # for testing only

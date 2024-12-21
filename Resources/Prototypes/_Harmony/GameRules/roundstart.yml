@@ -100,3 +100,23 @@
 #    back:
 #      - MagazinePistol
 #      - MagazinePistol
+
+# Perma prisoner
+- type: entity
+  parent: BaseGameRule
+  id: PermaPrisoner
+  components:
+  - type: AntagObjectives
+    objectives:
+    - EscapePermaObjective
+  - type: AntagSelection
+    agentName: perma-prisoner-round-end-agent-name
+    definitions:
+    - prefRoles: [ PermaPrisoner ]
+      playerRatio: 100
+      allowNonHumans: true
+      multiAntagSetting: All
+      requiredJob: PermaPrisoner
+      bypassSelectionPreference: true
+      mindRoles:
+      - MindRolePermaPrisoner

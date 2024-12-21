@@ -1,0 +1,13 @@
+- type: entity
+  parent: BaseLivingObjective
+  id: EscapePermaObjective
+  name: Be alive and unrestrained
+  description: You must stay alive and get back your freedom.
+  components:
+  - type: Objective
+    issuer: objective-issuer-perma-prisoner
+    difficulty: 1.0
+    icon:
+      sprite: Structures/Doors/Airlocks/Standard/security.rsi
+      state: open
+  - type: UnrestrainedCondition
