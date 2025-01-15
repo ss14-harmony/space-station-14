@@ -1,0 +1,42 @@
+- type: job
+  id: BrigMedicHarmony
+  name: job-name-brigmedic
+  description: job-description-brigmedic
+  playTimeTracker: JobBrigMedicHarmony
+  requirements:
+    - !type:DepartmentTimeRequirement
+      department: Security
+      time: 0 # 0 hours
+    - !type:DepartmentTimeRequirement
+      department: Medical
+      time: 0 # 0 hours
+  startingGear: BrigMedicGearHarmony
+  icon: "JobIconBrigmedic"
+  supervisors: job-supervisors-hos
+  canBeAntag: false
+  access:
+  - Security
+  - Medical
+  - Brig
+  - Maintenance
+  - Service
+  - External
+  - Cryogenics
+  special:
+  - !type:AddImplantSpecial
+    implants: [ MindShieldImplant ]
+
+- type: startingGear
+  id: BrigMedicGearHarmony
+  equipment:
+    id: BrigmedicPDA
+    ears: ClothingHeadsetBrigmedic
+    head: ClothingHeadHatBeretBrigmedic
+    outerClothing: ClothingOuterCoatAMG
+    belt: ClothingBeltBrigmedFilledHarmony
+    pocket1: WeaponDisabler
+    pocket2: ScalpelAdvanced
+  storage:
+    back:
+    - Flash
+    - BrigmedicLockerSpawnHarmony
