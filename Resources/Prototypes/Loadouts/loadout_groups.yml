@@ -1120,6 +1120,7 @@
   - NoirJumpsuit
   - NoirJumpskirt
   - DetectiveBlueSuitHarmony # Harmony
+  - DetectiveBlueSkirtHarmony # Harmony
 
 - type: loadoutGroup
   id: DetectiveOuterClothing
@@ -1129,7 +1130,9 @@
   - DetectiveCoat
   - DetectiveCoatGrey
   - DetectiveBlueCoatHarmony # Harmony
-
+  - DetectiveBomberCoatHarmony # Harmony
+  - DetectiveDiscoCoatHarmony # Harmony
+ 
 - type: loadoutGroup
   id: SecurityCadetJumpsuit
   name: loadout-group-security-cadet-jumpsuit
